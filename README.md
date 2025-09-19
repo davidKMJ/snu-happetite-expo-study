@@ -1,3 +1,3 @@
 # snu-happetite-expo-study
 
-Studying expo app development
+Navigation study using JS expo app.

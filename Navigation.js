@@ -20,6 +20,11 @@ function StackScreen() {
   return (
     <Stack.Navigator
       initialRouteName="Signin"
+      screenOptions={{
+        headerShown: false,
+        animation: 'slide_from_bottom',
+        
+      }}
     >
       <Stack.Screen name="Signin" component={Signin} />
       <Stack.Screen name="Signup" component={Signup} />
@@ -65,7 +70,6 @@ function Navigation() {
   return (
     <NavigationContainer>
       <StackScreen>
-        <BottomStack />
       </StackScreen>
     </NavigationContainer>
   );
